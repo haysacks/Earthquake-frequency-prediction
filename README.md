@@ -1,4 +1,4 @@
-# Prediksi Frekuensi Gempa dengan Menggunakan Data Gempa Tahun 2008-2018
+﻿# Prediksi Frekuensi Gempa dengan Menggunakan Data Gempa Tahun 2008-2018
 
 Repositori ini berisi data sejarah gempa yang terjadi di Indonesia pada tahun 2008-2018. Data tersebut diambil dari [BMKG](http://repogempa.bmkg.go.id/query.php).
 
@@ -16,7 +16,7 @@ Sebelum memulai, instal beberapa _library_ yang dibutuhkan dalam pembuatan aplik
   - `tidyquant`: memungkinkan penggunaan fungsi kuantitatif pada `tidyverse`
   - `forecast`: fungsi prediksi untuk _Time Series_ dan _Linear Models_
   - `TTR`: _functions_ dan _data_ to membangun _technical trading rules_
-  - `smooth`:
+  - `smooth`: _functions_ yang digunakan untuk _Time Series Analysis_ dan _forecasting_
   - `shiny`: _web application framework_ yang memudahkan pembangunan aplikasi _web_ interaktif dengan R.
   - `shinydashboard`: _package_ untuk membuat _dashboard_ dengan Shiny.
   - `leaflet`: membuat _web maps_ interaktif dengan _JavaScript 'Leaflet' library_
