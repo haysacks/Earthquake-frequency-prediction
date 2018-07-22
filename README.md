@@ -35,7 +35,7 @@ Untuk menjalankan aplikasi, ikuti langkah berikut.
 3. Menjalankan aplikasi prediksi gempa melalui _script_ `app.R`.
 
 ## Cara kerja
-![alt text](https://raw.githubusercontent.com/haysacks/Earthquake-frequency-prediction/master/Images/flowchart.png)
+![alt text](https://raw.githubusercontent.com/haysacks/Earthquake-frequency-prediction/master/Images/flowchart.png) 
 ### _Web Scraping_
 _Web scraping_ dilakukan untuk mengambil data gempa bumi dari situs BMKG Indonesia, dimana data tersebut berbentuk _end user output_.
 
