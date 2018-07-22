@@ -89,5 +89,5 @@ Berikut merupakan isi dari tampilan aplikasi Shiny yang dibuat.
 ![alt text](https://raw.githubusercontent.com/haysacks/Earthquake-frequency-prediction/master/screenshot.JPG)
 
 ## Saran pengembangan
-- Mengunakan faktor-faktor lain untuk memprediksi gempa, sehingga prediksi dapat lebih akurat
-- Memprediksi gempa yang terjadi di luar Indonesia
+- Menggunakan faktor-faktor lain untuk memprediksi gempa, sehingga prediksi dapat lebih akurat.
+- Memprediksi gempa yang terjadi di luar Indonesia.
