@@ -35,7 +35,7 @@ Untuk menjalankan aplikasi, ikuti langkah berikut.
 3. Menjalankan aplikasi prediksi gempa melalui _script_ `app.R`.
 
 ## Cara kerja
-![alt text](https://raw.githubusercontent.com/haysacks/Earthquake-frequency-prediction/master/flowchart.png)
+![alt text](https://raw.githubusercontent.com/haysacks/Earthquake-frequency-prediction/master/Images/flowchart.png)
 ### _Web Scraping_
 _Web scraping_ dilakukan untuk mengambil data gempa bumi dari situs BMKG Indonesia, dimana data tersebut berbentuk _end user output_.
 
@@ -86,7 +86,7 @@ Berikut merupakan isi dari tampilan aplikasi Shiny yang dibuat.
 - Nilai _error_ dari hasil prediksi berdasarkan wilayah yang dipilih, terdiri dari ME (_Mean Error_), RMSE (_Root Mean Square Error_), dan MAE (_Mean Absolute Error_).
 - _Choropleth map_ untuk menampilkan peta yang telah diarahkan ke wilayah Indonesia dan terdapat pembagian wilayah berdasarkan data gempa. Setiap wilayah memiliki intensitas warna yang berbeda-beda berdasarkan frekuensi gempa pada wilayah tersebut dan waktu yang dipilih. Keterangan hubungan intensitas warna dengan frekuensi gempa diletakkan pada bagian kanan bawah peta.
 
-![alt text](https://raw.githubusercontent.com/haysacks/Earthquake-frequency-prediction/master/screenshot.JPG)
+![alt text](https://raw.githubusercontent.com/haysacks/Earthquake-frequency-prediction/master/Images/screenshot.JPG)
 
 ## Saran pengembangan
 - Menggunakan faktor-faktor lain untuk memprediksi gempa, sehingga prediksi dapat lebih akurat.
