@@ -61,7 +61,6 @@ Rumus dari model _Moving Average_ Orde 1:
 
 ![equation](https://latex.codecogs.com/gif.latex?x_%7Bt%7D%20%3D%20%5Cmu%20&plus;%20w_%7Bt%7D%20&plus;%20%5CTheta_%7B1%7Dw_%7Bt-1%7D)
 
-
 Berikut merupakan tahapan untuk melakukan prediksi.
 1. Mengubah data `.csv` yang didapatkan dari _web scraping_ menjadi satu _data frame_ untuk semua tahun.
 2. Melakukan _filter_ pada data gempa bumi dengan rentang waktu dan magnitudo tertentu
@@ -74,7 +73,9 @@ Berikut merupakan tahapan untuk melakukan prediksi.
 9. Semua data frekuensi untuk setiap daerah digabung menjadi satu _data frame_ yang disimpan ke dalam _file_ dengan ekstensi `.rds` dan digunakan untuk visualisasi.
 
 ### Visualisasi data
-Visualisasi data dilakukan dengan menggunakan aplikasi Shiny. Hasil dari visualisasi prediksi frekuensi gempa bergantung pada _input_ rentang waktu yang ditentukan pengguna. Rentang waktu yang dapat dipilih adalah 1 minggu sampai 52 minggu ke depan. Prediksi frekuensi gempa ditampilkan pada peta Indonesia yang terdapat dalam aplikasi. 
+Visualisasi data dilakukan dengan menggunakan aplikasi Shiny. Hasil dari visualisasi prediksi frekuensi gempa bergantung pada _input_ rentang waktu yang ditentukan pengguna. Rentang waktu yang dapat dipilih adalah 1 minggu sampai 52 minggu ke depan. Prediksi frekuensi gempa ditampilkan pada peta Indonesia yang terdapat dalam aplikasi.
+
+![alt text](https://raw.githubusercontent.com/haysacks/Earthquake-frequency-prediction/master/screenshot.JPG)
 
 ## Saran pengembangan
 - Mengunakan faktor-faktor lain untuk memprediksi gempa, sehingga prediksi dapat lebih akurat
