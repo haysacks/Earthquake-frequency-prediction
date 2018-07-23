@@ -1,4 +1,4 @@
-﻿# Prediksi Gempa dengan Menggunakan Data Gempa Tahun 2008-2018
+﻿# Prediksi Frekuensi Gempa dengan Menggunakan Data Gempa Tahun 2008-2018
 
 Repositori ini berisi data sejarah gempa yang terjadi di Indonesia pada tahun 2008-2018. Data tersebut diambil dari [BMKG](http://repogempa.bmkg.go.id/query.php).
 
